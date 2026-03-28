@@ -36,20 +36,20 @@ This project asks the same questions a shift supervisor would ask — but answer
 
 | # | Notebook | Focus | Status |
 |---|----------|-------|--------|
-| 1 | `01_numpy_process_health_check.ipynb` | Descriptive stats, outlier detection with NumPy | 🔄 In progress |
-| 2 | `02_pandas_data_manipulation.ipynb` | Cleaning, groupby, time-series with Pandas | ⏳ Planned |
+| 1 | `01_numpy_process_health_check.ipynb` | Descriptive stats, outlier detection with NumPy | ✅ Complete |
+| 2 | `02_pandas_process_health_check.ipynb` | Filtering, descriptive stats, event impact analysis, outlier detection, ranking | 🔄 In progress |
 | 3 | `03_visualization.ipynb` | Process trend charts, control charts | ⏳ Planned |
 
 ---
 
 ## 🗂️ Repository Structure
-
 ```
 fcc-process-analysis/
 ├── data/
 │   └── fcc_dataset_large.csv        # Generated dataset (not committed — see above)
 ├── notebooks/
-│   └── 01_numpy_process_health_check.ipynb
+│   ├── 01_numpy_process_health_check.ipynb
+│   └── 02_pandas_process_health_check.ipynb
 ├── src/
 │   └── (reusable functions — added in later phases)
 ├── requirements.txt
@@ -62,13 +62,12 @@ fcc-process-analysis/
 
 - **Python** 3.x
 - **NumPy** — array operations, statistical functions *(Phase 1)*
-- **Pandas** — data manipulation and cleaning *(Phase 2)*
+- **Pandas** — data manipulation, filtering, ranking *(Phase 2)*
 - **Matplotlib** — visualization *(Phase 3)*
 
 ---
 
 ## 🚀 Getting Started
-
 ```bash
 git clone https://github.com/JOUW-USERNAME/fcc-process-analysis.git
 cd fcc-process-analysis
@@ -85,4 +84,4 @@ Open notebooks in VS Code or run `jupyter notebook` in your terminal.
 
 ---
 
-*Related project: [synthetic-fcc-dataset](https://github.com/JOUW-USERNAME/synthetic-fcc-dataset)*
+*Related project: [synthetic-fcc-dataset](https://github.com/gjmelief/synthetic-fcc-dataset)*
