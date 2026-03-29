@@ -37,8 +37,10 @@ This project asks the same questions a shift supervisor would ask — but answer
 | # | Notebook | Focus | Status |
 |---|----------|-------|--------|
 | 1 | `01_numpy_process_health_check.ipynb` | Descriptive stats, outlier detection with NumPy | ✅ Complete |
-| 2 | `02_pandas_process_health_check.ipynb` | Filtering, descriptive stats, event impact analysis, outlier detection, ranking | 🔄 In progress |
+| 2 | `02_pandas_process_health_check.ipynb` | Filtering, descriptive stats, event impact analysis, outlier detection, ranking | ✅ Complete |
+| 3 | `03_pandas_shift_performance.ipynb` | Shift comparison, groupby, variability analysis | 🔄 In progress |
 | 3 | `03_visualization.ipynb` | Process trend charts, control charts | ⏳ Planned |
+
 
 ---
 
@@ -50,6 +52,7 @@ fcc-process-analysis/
 ├── notebooks/
 │   ├── 01_numpy_process_health_check.ipynb
 │   └── 02_pandas_process_health_check.ipynb
+│   └── 03_pandas_shift_performance.ipynb
 ├── src/
 │   └── (reusable functions — added in later phases)
 ├── requirements.txt
